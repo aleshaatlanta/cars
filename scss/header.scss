@@ -1,0 +1,51 @@
+.header {
+    position:absolute;
+    top:0;
+    left: 0;
+    right: 0;
+
+    &-black {
+        background-color: black;
+        height: 140px;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-top: 40px;
+        
+    }
+
+    
+    &__nav {
+        
+        &-link {
+        display:inline-block;
+        font-size: 16px;
+        font-weight: 700;
+        color: #FFF;
+        text-decoration: none;
+        margin-right: 35px;
+       
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+
+    }
+
+    &-blue{
+        color: blue;
+    }
+
+    }
+
+   @media (max-width: 850px) {
+        .header__nav {
+            display:none;
+        }
+    }
+
+    
