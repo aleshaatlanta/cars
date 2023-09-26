@@ -1,9 +1,9 @@
 .home {
-    background: url(../img/home/Обложка.png) no-repeat center ;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-   
+   position:absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 100;
         &__content {
             padding-top: 247px;
             text-align: center;
